@@ -8,7 +8,7 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>  
+  </welcome-file-list>
   <context-param>
     <param-name>gAge</param-name>
     <param-value>1001</param-value>
@@ -16,7 +16,7 @@
   <context-param>
     <param-name>jspApp</param-name>
     <param-value>Hello JSP</param-value>
-  </context-param>  
+  </context-param>
   <servlet>
     <servlet-name>initParameter</servlet-name>
     <jsp-file>/05_initParameter.jsp</jsp-file>
@@ -26,11 +26,11 @@
     </init-param>
   </servlet>
   <error-page>
-  	<exception-type>java.lang.NumberFormatException</exception-type>
-  	<location>/08_Exception/error02.jsp</location>  	
+    <exception-type>java.lang.NumberFormatException</exception-type>
+    <location>/08_Exception/error02.jsp</location>
   </error-page>
-   <error-page>
-  	<error-code>404</error-code>
-  	<location>/08_Exception/error03.jsp</location>  	
+  <error-page>
+    <error-code>404</error-code>
+    <location>/08_Exception/error03.jsp</location>
   </error-page>
 </web-app>
